@@ -3,6 +3,7 @@
 # Anthony Mulcahy <anthony@kcn.ne.jp>, 1999, 2000.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2000-2008.
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
+# Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011.
 # sicklylife <translation@sicklylife.jp>, 2019.
 #
 msgid ""
