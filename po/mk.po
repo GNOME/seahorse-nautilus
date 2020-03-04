@@ -108,7 +108,7 @@ msgstr[2] "Увезив клучеви за"
 #: ../tool/seahorse-notification.c:623
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
-msgstr "Потпишано од <i><Ид. на клуч='%s'/> <b>истечено</b></i> на %s."
+msgstr "Потпишано од <i><key id='%s'/> <b>истечено</b></i> на %s."
 
 #: ../tool/seahorse-notification.c:624
 msgid "Invalid Signature"
@@ -117,7 +117,7 @@ msgstr "Невалиден потпис"
 #: ../tool/seahorse-notification.c:630
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
-msgstr "Потпишано од <i><Ид. на клуч='%s'/></i> на %s <b>Истечено</b>."
+msgstr "Потпишано од <i><key id='%s'/></i> на %s <b>Истечено</b>."
 
 #: ../tool/seahorse-notification.c:631
 msgid "Expired Signature"
@@ -126,7 +126,7 @@ msgstr "Истечен потпис"
 #: ../tool/seahorse-notification.c:637
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
-msgstr "Потпишано од <i><Ид. на клуч='%s'/> <b>Отповикано</b></i> на %s."
+msgstr "Потпишано од <i><key id='%s'/> <b>Отповикано</b></i> на %s."
 
 #: ../tool/seahorse-notification.c:638
 msgid "Revoked Signature"
@@ -136,7 +136,7 @@ msgstr "Отповикан потпис"
 #: ../tool/seahorse-notification.c:644
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "Потпишано од <i><Ид. на клуч='%s'/></i> на %s."
+msgstr "Потпишано од <i><key id='%s'/></i> на %s."
 
 #: ../tool/seahorse-notification.c:645
 msgid "Good Signature"
