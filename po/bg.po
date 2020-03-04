@@ -125,7 +125,7 @@ msgstr "Анулиран подпис"
 #: ../tool/seahorse-notification.c:644
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "Подписан с <i><key id='%s'/> на %s."
+msgstr "Подписан с <i><key id='%s'/></i> на %s."
 
 #: ../tool/seahorse-notification.c:645
 msgid "Good Signature"
