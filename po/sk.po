@@ -135,7 +135,7 @@ msgstr "Podpis so zrušenou platnoťou"
 #: ../tool/seahorse-notification.c:644
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "Podpísané %2$s kľúčom <i><key id='%1$s'/>."
+msgstr "Podpísané %2$s kľúčom <i><key id='%1$s'/></i>."
 
 #: ../tool/seahorse-notification.c:645
 msgid "Good Signature"
