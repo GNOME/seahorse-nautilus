@@ -143,7 +143,7 @@ msgstr[1] "Kulcsok importálva:"
 #: tool/seahorse-notification.c:603
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
-msgstr "Aláírva <i><kulcsazonosító=„%s”/> által, <b>lejárt</b></i> ekkor: %s."
+msgstr "Aláírva <i><key id='%s'/> által, <b>lejárt</b></i> ekkor: %s."
 
 #: tool/seahorse-notification.c:604
 msgid "Invalid Signature"
@@ -152,7 +152,7 @@ msgstr "Érvénytelen aláírás"
 #: tool/seahorse-notification.c:610
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
-msgstr "Aláírva <i><kulcsazonosító='%s'/> által</i> ekkor: %s, <b>lejárt</b>."
+msgstr "Aláírva <i><key id='%s'/> által</i> ekkor: %s, <b>lejárt</b>."
 
 #: tool/seahorse-notification.c:611
 msgid "Expired Signature"
@@ -162,7 +162,7 @@ msgstr "Lejárt aláírás"
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
 msgstr ""
-"Aláírva <i><kulcsazonosító='%s'/> által, <b>visszavonva</b></i> ekkor: %s."
+"Aláírva <i><key id='%s'/> által, <b>visszavonva</b></i> ekkor: %s."
 
 #: tool/seahorse-notification.c:618
 msgid "Revoked Signature"
@@ -175,7 +175,7 @@ msgstr "Jó aláírás"
 #: tool/seahorse-notification.c:626
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "Aláírva <i><kulcsazonosító='%s'/> által</i> ekkor: %s."
+msgstr "Aláírva <i><key id='%s'/> által</i> ekkor: %s."
 
 #: tool/seahorse-notification.c:628
 msgid "Untrusted Valid Signature"
@@ -185,7 +185,7 @@ msgstr "Nem megbízható érvényes aláírás"
 #, c-format
 msgid "Valid but <b>untrusted</b> signature by <i><key id='%s'/></i> on %s."
 msgstr ""
-"Érvényes, de <b>nem megbízható</b> aláírás <i><kulcsazonosító='%s'/> által</"
+"Érvényes, de <b>nem megbízható</b> aláírás <i><key id='%s'/> által</"
 "i> ekkor: %s."
 
 #: tool/seahorse-notification.c:635
