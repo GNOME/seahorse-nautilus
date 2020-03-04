@@ -129,7 +129,7 @@ msgstr "توقيع غير صالح"
 #: ../tool/seahorse-notification.c:630
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
-msgstr "وُقّع بواسطة <i><key id='%s'/>  في %s <b>انتهت صلاحيته</b>."
+msgstr "وُقّع بواسطة <i><key id='%s'/></i>  في %s <b>انتهت صلاحيته</b>."
 
 #: ../tool/seahorse-notification.c:631
 msgid "Expired Signature"
@@ -148,7 +148,7 @@ msgstr "توقيع مسحوب"
 #: ../tool/seahorse-notification.c:644
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "وُقّع بواسطة <i><key id='%s'/> في %s."
+msgstr "وُقّع بواسطة <i><key id='%s'/></i> في %s."
 
 #: ../tool/seahorse-notification.c:645
 msgid "Good Signature"
