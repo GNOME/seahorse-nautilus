@@ -196,7 +196,7 @@ msgstr "Ikke betroet gyldig underskrift"
 #, c-format
 msgid "Valid but <b>untrusted</b> signature by <i><key id='%s'/></i> on %s."
 msgstr ""
-"Gyldig men <b>ikke betroet</b> underskrift af <i><key id=“%s”/></i> den %s."
+"Gyldig men <b>ikke betroet</b> underskrift af <i><key id='%s'/></i> den %s."
 
 #: tool/seahorse-notification.c:635
 msgid "Signing key not in keyring."
