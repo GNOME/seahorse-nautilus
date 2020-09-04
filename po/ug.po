@@ -115,7 +115,7 @@ msgstr "ۋاقتى ئوتكەن ئىمزا"
 #: ../tool/seahorse-notification.c:637
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
-msgstr "%2$s دىكى<b>مەغلۇپ بولغان</b><i><key id='%1$s'/> بىلەن ئىمزا قويۇلغان"
+msgstr "%2$s دىكى<b>مەغلۇپ بولغان</b><i><key id='%1$s'/></i> بىلەن ئىمزا قويۇلغان"
 
 #: ../tool/seahorse-notification.c:638
 msgid "Revoked Signature"
