@@ -96,7 +96,7 @@ msgstr[1] "匯入此金鑰"
 #: ../tool/seahorse-notification.c:623
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
-msgstr "由 <i><key id=‘%s’/> 簽署，於 %s 過期。"
+msgstr "由 <i><key id='%s'/></i> 簽署，於 %s 過期。"
 
 #: ../tool/seahorse-notification.c:624
 msgid "Invalid Signature"
@@ -105,7 +105,7 @@ msgstr "無效的簽章"
 #: ../tool/seahorse-notification.c:630
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
-msgstr "由 <i><key id=‘%s’/>於 %s 簽署，<b>已過期</b>。"
+msgstr "由 <i><key id='%s'/></i>於 %s 簽署，<b>已過期</b>。"
 
 #: ../tool/seahorse-notification.c:631
 msgid "Expired Signature"
@@ -114,7 +114,7 @@ msgstr "已過期的簽章"
 #: ../tool/seahorse-notification.c:637
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
-msgstr "由 <i><key id=‘%s’/>簽署，於 %s 撤銷。"
+msgstr "由 <i><key id='%s'/></i>簽署，於 %s 撤銷。"
 
 #: ../tool/seahorse-notification.c:638
 msgid "Revoked Signature"
@@ -124,7 +124,7 @@ msgstr "簽章已撤銷"
 #: ../tool/seahorse-notification.c:644
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "由 <i><key id=‘%s’/>於 %s 簽署。"
+msgstr "由 <i><key id='%s'/></i>於 %s 簽署。"
 
 #: ../tool/seahorse-notification.c:645
 msgid "Good Signature"
