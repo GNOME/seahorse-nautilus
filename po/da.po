@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=seahorse&keywords=I18N+L10N&component=Nautilus\n"
 "POT-Creation-Date: 2018-02-20 23:20+0000\n"
-"PO-Revision-Date: 2018-03-06 22:37+0200\n"
+"PO-Revision-Date: 2020-11-01 14:44+0100\n"
 "Last-Translator: Joe Hansen (joedalton2@yahoo.dk)\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -154,7 +154,7 @@ msgstr[1] "Importerede nøgler for"
 #: tool/seahorse-notification.c:603
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
-msgstr "Underskrevet af <i><key id=\"%s\"/> <b>udløbet</b></i> den %s."
+msgstr "Underskrevet af <i><key id='%s'/> <b>udløbet</b></i> den %s."
 
 #: tool/seahorse-notification.c:604
 msgid "Invalid Signature"
@@ -163,7 +163,7 @@ msgstr "Ugyldig underskrift"
 #: tool/seahorse-notification.c:610
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
-msgstr "Underskrevet af <i><key id=\"%s\"/></i> den %s <b>Udløbet</b>."
+msgstr "Underskrevet af <i><key id='%s'/></i> den %s <b>Udløbet</b>."
 
 #: tool/seahorse-notification.c:611
 msgid "Expired Signature"
@@ -172,7 +172,7 @@ msgstr "Udløbet underskrift"
 #: tool/seahorse-notification.c:617
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
-msgstr "Underskrevet af <i><key id=\"%s\"/> <b>Tilbagekaldt</b></i> den %s."
+msgstr "Underskrevet af <i><key id='%s'/> <b>Tilbagekaldt</b></i> den %s."
 
 # Enten en ugyldiggjort underskrift eller også har de ugyldiggjort en underskrift. Oversættelsen kan forstås på begge måder så det skulle være ok
 #: tool/seahorse-notification.c:618
@@ -186,7 +186,7 @@ msgstr "Gyldig underskrift"
 #: tool/seahorse-notification.c:626
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr "Underskrevet af <i><key id=\"%s\"/></i> den %s."
+msgstr "Underskrevet af <i><key id='%s'/></i> den %s."
 
 #: tool/seahorse-notification.c:628
 msgid "Untrusted Valid Signature"
@@ -195,8 +195,7 @@ msgstr "Ikke betroet gyldig underskrift"
 #: tool/seahorse-notification.c:629
 #, c-format
 msgid "Valid but <b>untrusted</b> signature by <i><key id='%s'/></i> on %s."
-msgstr ""
-"Gyldig men <b>ikke betroet</b> underskrift af <i><key id='%s'/></i> den %s."
+msgstr "Gyldig men <b>ikke betroet</b> underskrift af <i><key id='%s'/></i> den %s."
 
 #: tool/seahorse-notification.c:635
 msgid "Signing key not in keyring."
