@@ -154,7 +154,7 @@ msgstr "期限切れの署名です"
 #: tool/seahorse-notification.c:617
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
-msgstr "%2$s にある<b>失効した</b><i><key id='%1$s'/>で署名しました"
+msgstr "%2$s にある<i><b>失効した</b><key id='%1$s'/></i>で署名しました"
 
 #: tool/seahorse-notification.c:618
 msgid "Revoked Signature"
