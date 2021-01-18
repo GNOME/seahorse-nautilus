@@ -554,7 +554,7 @@ msgstr "No s'han pogut empaquetar els fitxers"
 
 #: tool/seahorse-util.c:170
 msgid "Decryption failed. You probably do not have the decryption key."
-msgstr "No s'ha pogut desxifrar. Possiblement no teniu la clau per desxifrar."
+msgstr "No s'ha pogut desxifrar. Possiblement no teniu la clau per a desxifrar."
 
 #: tool/seahorse-util.c:197
 msgid "%Y-%m-%d"
