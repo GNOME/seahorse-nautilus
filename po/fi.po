@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: seahorse\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=seahorse-plugins&keywords=I18N+L10N&component=Nautilus\n"
-"POT-Creation-Date: 2017-12-04 21:56+0000\n"
-"PO-Revision-Date: 2018-02-11 12:14+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/seahorse-nautilus/"
+"issues\n"
+"POT-Creation-Date: 2020-07-19 12:43+0000\n"
+"PO-Revision-Date: 2021-02-27 17:32+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: data/org.gnome.seahorse.nautilus.gschema.xml:5
 msgid "File extension for packages"
@@ -37,6 +37,8 @@ msgstr "Käsittele useat tiedostot erikseen"
 msgid ""
 "When handling multiple files, don’t package them but process separately."
 msgstr ""
+"Kun käsittelet useita tiedostoja, älä pakkaa niitä, vaan käsittele ne "
+"yksittäin."
 
 #: data/org.gnome.seahorse.nautilus.gschema.xml:15
 msgid "Use armor mode when encrypting"
@@ -64,7 +66,6 @@ msgid "Height (in pixels) of the window."
 msgstr "Ikkunan korkeus pikseleissä."
 
 #: nautilus-ext/seahorse-nautilus.c:158
-#| msgid "Encrypt..."
 msgid "Encrypt…"
 msgstr "Salaa…"
 
@@ -133,6 +134,7 @@ msgstr[0] "Tuotiin %d avain"
 msgstr[1] "Tuotiin %d avainta"
 
 #: tool/seahorse-notification.c:575
+#, c-format
 msgid "Imported a key for"
 msgid_plural "Imported keys for"
 msgstr[0] "Tuotiin avain käyttäjälle"
@@ -177,10 +179,8 @@ msgid "Signed by <i><key id='%s'/></i> on %s."
 msgstr "Allekirjoittanut <i><key id='%s'/></i> %s."
 
 #: tool/seahorse-notification.c:628
-#, fuzzy
-#| msgid "Invalid Signature"
 msgid "Untrusted Valid Signature"
-msgstr "Virheellinen allekirjoitus"
+msgstr "Ei-luotettu kelvollinen allekirjoitus"
 
 #: tool/seahorse-notification.c:629
 #, fuzzy, c-format
@@ -214,6 +214,7 @@ msgid "Notification Messages"
 msgstr "Huomautusviestit"
 
 #: tool/seahorse-passphrase.c:111
+#, c-format
 msgid "Wrong passphrase."
 msgstr "Väärä tunnuslause."
 
@@ -277,7 +278,7 @@ msgstr "Allekirjoita tiedosto oletusavaimella"
 
 #: tool/seahorse-tool.c:64
 msgid "Encrypt and sign file with default key"
-msgstr "Salla ja allekirjoita avain oletusavaimella"
+msgstr "Salaa ja allekirjoita tiedosto oletusavaimella"
 
 #: tool/seahorse-tool.c:66
 msgid "Decrypt encrypted file"
@@ -336,6 +337,7 @@ msgid "Keys were found but not imported."
 msgstr "Avaimia löytyi mutta niitä ei tuotu."
 
 #: tool/seahorse-tool.c:494
+#, c-format
 msgid "Imported key"
 msgstr "Tuotiin avain"
 
@@ -373,6 +375,7 @@ msgstr "_Avaa"
 #. * dialogs at the user.
 #.
 #: tool/seahorse-tool.c:648
+#, c-format
 msgid "No valid signatures found"
 msgstr "Kelvollisia allekirjoituksia ei löydy"
 
